@@ -1,0 +1,30 @@
+/* Custom Branding */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header */
+header {
+    backdrop-filter: blur(10px);
+}
+
+/* Hero Section */
+section.pt-32 {
+    background-color: #f8fafc; /* Light background for contrast */
+}
+
+/* Product Cards */
+.product-card:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+
+/* Footer */
+footer {
+    background: #1f2937; /* Dark background for footer */
+}
+
+/* Button Styles */
+button {
+    transition: background-color 0.3s ease;
+}
